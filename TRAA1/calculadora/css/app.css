@@ -1,0 +1,13 @@
+#fondo{ 
+        background-image: url('https://media.istockphoto.com/id/1050490558/es/vector/v%C3%ADspera-de-navidad-cubierto-de-nieve.jpg?s=1024x1024&w=is&k=20&c=v0u7Ir7l92x7a1lfPZAIFtNVgAlDgwabEzEM0_EkfTA=');
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: movimiento 10s infinite;
+    }
+
+    @keyframes movimiento {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
